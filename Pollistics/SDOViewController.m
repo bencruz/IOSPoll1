@@ -45,7 +45,24 @@ NSString * lastVoteWas = @" ";
     NSString * aButtonTitle, * bButtonTitle,* cButtonTitle,* dButtonTitle;
     aButtonTitle =@"A"; bButtonTitle=@"B"; cButtonTitle=@"C"; dButtonTitle=@"D";
     
-    NSString * voteButtonTitleString = [sender titleForState:UIControlStateNormal];
+        NSString * voteButtonTitleString = [sender titleForState:UIControlStateNormal];
+    
+    
+    
+    
+    UIImage *blueImage = [UIImage imageNamed:@"BlueButtonAi.png"];
+    
+    [self.button1Outlet setBackgroundImage:blueImage forState:UIControlStateNormal];
+    [self.button2Outlet setBackgroundImage:blueImage forState:UIControlStateNormal];
+    [self.button3Outlet setBackgroundImage:blueImage forState:UIControlStateNormal];
+    [self.button4Outlet setBackgroundImage:blueImage forState:UIControlStateNormal];
+    //[sender setTitle:voteButtonTitleString forState:UIControlStateNormal];
+    
+    
+    UIImage *image = [UIImage imageNamed:@"SelectedButtonAi.png"];
+    [sender setBackgroundImage:image forState:UIControlStateNormal];
+    
+    //[sender setTitle:voteButtonTitleString forState:UIControlStateNormal];
     
     NSURL *url;
     
@@ -112,7 +129,22 @@ NSString * lastVoteWas = @" ";
 
 /* REFRESH METHOD =====================================*/
 - (IBAction)refreshAction:(id)sender {
-       // Defines the URL for the Vote
+
+    UIImage *blueImage = [UIImage imageNamed:@"BlueButtonAi.png"];
+
+    
+    [self.button1Outlet setBackgroundImage:blueImage forState:UIControlStateNormal];
+    [self.button2Outlet setBackgroundImage:blueImage forState:UIControlStateNormal];
+    [self.button3Outlet setBackgroundImage:blueImage forState:UIControlStateNormal];
+    [self.button4Outlet setBackgroundImage:blueImage forState:UIControlStateNormal];
+
+    
+    
+    // Defines the URL for the Vote
+
+    
+    
+    
     NSURL *url = [ NSURL URLWithString: [ NSString stringWithFormat: @"http://www.pollistics.com/index.php"] ];
     
     // Executes the Vote and Puts the returned page from the URL into this String

@@ -17,6 +17,11 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *statusLabelOutlet;
 
+@property (weak, nonatomic) IBOutlet UIButton *button1Outlet;
+@property (weak, nonatomic) IBOutlet UIButton *button2Outlet;
+@property (weak, nonatomic) IBOutlet UIButton *button3Outlet;
+@property (weak, nonatomic) IBOutlet UIButton *button4Outlet;
+
 - (IBAction)voteAction:(id)sender;
 - (IBAction)refreshAction:(id)sender;
 
