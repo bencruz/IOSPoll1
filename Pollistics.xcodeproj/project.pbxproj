@@ -30,6 +30,7 @@
 		BF3B597217304B0700A29F65 /* green-rectangle-blank-button-hiCropped.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3B597117304B0700A29F65 /* green-rectangle-blank-button-hiCropped.png */; };
 		BF4BE27C175D64BB00EA0547 /* BlueButtonAi.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE27B175D64BB00EA0547 /* BlueButtonAi.png */; };
 		BF4BE27E175D6F5600EA0547 /* SelectedButtonAi.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE27D175D6F5600EA0547 /* SelectedButtonAi.png */; };
+		BF769DF4175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png in Resources */ = {isa = PBXBuildFile; fileRef = BF769DF3175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png */; };
 		BF77B358175D75350025F29D /* pollisticsIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = BF77B357175D75350025F29D /* pollisticsIcon114.png */; };
 		BF77B35A175D75390025F29D /* pollisticsIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = BF77B359175D75390025F29D /* pollisticsIcon57.png */; };
 		BF77B35C175D7C470025F29D /* pollisticslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF77B35B175D7C470025F29D /* pollisticslogo.png */; };
@@ -75,6 +76,7 @@
 		BF3B597117304B0700A29F65 /* green-rectangle-blank-button-hiCropped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-rectangle-blank-button-hiCropped.png"; sourceTree = "<group>"; };
 		BF4BE27B175D64BB00EA0547 /* BlueButtonAi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlueButtonAi.png; path = ../../../iOSGraphics/BlueButtonAi.png; sourceTree = "<group>"; };
 		BF4BE27D175D6F5600EA0547 /* SelectedButtonAi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SelectedButtonAi.png; path = ../../../iOSGraphics/SelectedButtonAi.png; sourceTree = "<group>"; };
+		BF769DF3175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Polistics_Logo_6-3-13-1280x480.png"; path = "../../../iOSGraphics/Polistics_Logo_6-3-13-1280x480.png"; sourceTree = "<group>"; };
 		BF77B357175D75350025F29D /* pollisticsIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollisticsIcon114.png; sourceTree = "<group>"; };
 		BF77B359175D75390025F29D /* pollisticsIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollisticsIcon57.png; sourceTree = "<group>"; };
 		BF77B35B175D7C470025F29D /* pollisticslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pollisticslogo.png; path = ../../../iOSGraphics/pollisticslogo.png; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		BF3B593917303D9100A29F65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF769DF3175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png */,
 				BF77B35B175D7C470025F29D /* pollisticslogo.png */,
 				BF4BE27D175D6F5600EA0547 /* SelectedButtonAi.png */,
 				BF4BE27B175D64BB00EA0547 /* BlueButtonAi.png */,
@@ -277,6 +280,7 @@
 				BF77B358175D75350025F29D /* pollisticsIcon114.png in Resources */,
 				BF77B35A175D75390025F29D /* pollisticsIcon57.png in Resources */,
 				BF77B35C175D7C470025F29D /* pollisticslogo.png in Resources */,
+				BF769DF4175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
