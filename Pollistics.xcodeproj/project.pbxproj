@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BF217502175D52C1000061A9 /* greenbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF217501175D52C1000061A9 /* greenbutton.png */; };
-		BF217504175D5FF5000061A9 /* bluebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF217503175D5FF5000061A9 /* bluebutton.png */; };
 		BF3B593317303D9100A29F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3B593217303D9100A29F65 /* UIKit.framework */; };
 		BF3B593517303D9100A29F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3B593417303D9100A29F65 /* Foundation.framework */; };
 		BF3B593717303D9100A29F65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3B593617303D9100A29F65 /* CoreGraphics.framework */; };
@@ -28,12 +27,16 @@
 		BF3B596E17303FF700A29F65 /* pollisticslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3B596D17303FF700A29F65 /* pollisticslogo.png */; };
 		BF3B59701730416C00A29F65 /* pollisticslogoHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3B596F1730416C00A29F65 /* pollisticslogoHeader.png */; };
 		BF3B597217304B0700A29F65 /* green-rectangle-blank-button-hiCropped.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3B597117304B0700A29F65 /* green-rectangle-blank-button-hiCropped.png */; };
-		BF4BE27C175D64BB00EA0547 /* BlueButtonAi.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE27B175D64BB00EA0547 /* BlueButtonAi.png */; };
-		BF4BE27E175D6F5600EA0547 /* SelectedButtonAi.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE27D175D6F5600EA0547 /* SelectedButtonAi.png */; };
-		BF769DF4175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png in Resources */ = {isa = PBXBuildFile; fileRef = BF769DF3175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png */; };
 		BF77B358175D75350025F29D /* pollisticsIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = BF77B357175D75350025F29D /* pollisticsIcon114.png */; };
 		BF77B35A175D75390025F29D /* pollisticsIcon57.png in Resources */ = {isa = PBXBuildFile; fileRef = BF77B359175D75390025F29D /* pollisticsIcon57.png */; };
-		BF77B35C175D7C470025F29D /* pollisticslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF77B35B175D7C470025F29D /* pollisticslogo.png */; };
+		CBD1DD2C175F446500264055 /* pollistics-ios_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD1DD2A175F446500264055 /* pollistics-ios_icon_114.png */; };
+		CBD1DD2D175F446500264055 /* pollistics-ios_icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD1DD2B175F446500264055 /* pollistics-ios_icon_57.png */; };
+		CBD1DD35175F45DD00264055 /* grey-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD1DD34175F45DD00264055 /* grey-button.png */; };
+		CBD1DD3A175F48DF00264055 /* ButtonSet.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD1DD36175F48DF00264055 /* ButtonSet.png */; };
+		CBD1DD3B175F48DF00264055 /* ButtonSetClip.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD1DD37175F48DF00264055 /* ButtonSetClip.png */; };
+		CBD1DD3C175F48DF00264055 /* pollisticslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD1DD38175F48DF00264055 /* pollisticslogo.png */; };
+		CBD1DD3D175F48DF00264055 /* pollisticslogoHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD1DD39175F48DF00264055 /* pollisticslogoHeader.png */; };
+		CBD1DD3F175F4AFE00264055 /* Polistics-Logo-gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = CBD1DD3E175F4AFE00264055 /* Polistics-Logo-gradient.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +51,6 @@
 
 /* Begin PBXFileReference section */
 		BF217501175D52C1000061A9 /* greenbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbutton.png; sourceTree = "<group>"; };
-		BF217503175D5FF5000061A9 /* bluebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluebutton.png; path = ../../../iOSGraphics/bluebutton.png; sourceTree = "<group>"; };
 		BF3B592F17303D9100A29F65 /* Pollistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3B593217303D9100A29F65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF3B593417303D9100A29F65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,12 +76,16 @@
 		BF3B596D17303FF700A29F65 /* pollisticslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollisticslogo.png; sourceTree = "<group>"; };
 		BF3B596F1730416C00A29F65 /* pollisticslogoHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollisticslogoHeader.png; sourceTree = "<group>"; };
 		BF3B597117304B0700A29F65 /* green-rectangle-blank-button-hiCropped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-rectangle-blank-button-hiCropped.png"; sourceTree = "<group>"; };
-		BF4BE27B175D64BB00EA0547 /* BlueButtonAi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlueButtonAi.png; path = ../../../iOSGraphics/BlueButtonAi.png; sourceTree = "<group>"; };
-		BF4BE27D175D6F5600EA0547 /* SelectedButtonAi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SelectedButtonAi.png; path = ../../../iOSGraphics/SelectedButtonAi.png; sourceTree = "<group>"; };
-		BF769DF3175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Polistics_Logo_6-3-13-1280x480.png"; path = "../../../iOSGraphics/Polistics_Logo_6-3-13-1280x480.png"; sourceTree = "<group>"; };
 		BF77B357175D75350025F29D /* pollisticsIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollisticsIcon114.png; sourceTree = "<group>"; };
 		BF77B359175D75390025F29D /* pollisticsIcon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollisticsIcon57.png; sourceTree = "<group>"; };
-		BF77B35B175D7C470025F29D /* pollisticslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pollisticslogo.png; path = ../../../iOSGraphics/pollisticslogo.png; sourceTree = "<group>"; };
+		CBD1DD2A175F446500264055 /* pollistics-ios_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pollistics-ios_icon_114.png"; sourceTree = "<group>"; };
+		CBD1DD2B175F446500264055 /* pollistics-ios_icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pollistics-ios_icon_57.png"; sourceTree = "<group>"; };
+		CBD1DD34175F45DD00264055 /* grey-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey-button.png"; sourceTree = "<group>"; };
+		CBD1DD36175F48DF00264055 /* ButtonSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSet.png; sourceTree = "<group>"; };
+		CBD1DD37175F48DF00264055 /* ButtonSetClip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSetClip.png; sourceTree = "<group>"; };
+		CBD1DD38175F48DF00264055 /* pollisticslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollisticslogo.png; sourceTree = "<group>"; };
+		CBD1DD39175F48DF00264055 /* pollisticslogoHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pollisticslogoHeader.png; sourceTree = "<group>"; };
+		CBD1DD3E175F4AFE00264055 /* Polistics-Logo-gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Polistics-Logo-gradient.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,11 +160,14 @@
 		BF3B593917303D9100A29F65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF769DF3175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png */,
-				BF77B35B175D7C470025F29D /* pollisticslogo.png */,
-				BF4BE27D175D6F5600EA0547 /* SelectedButtonAi.png */,
-				BF4BE27B175D64BB00EA0547 /* BlueButtonAi.png */,
-				BF217503175D5FF5000061A9 /* bluebutton.png */,
+				CBD1DD3E175F4AFE00264055 /* Polistics-Logo-gradient.png */,
+				CBD1DD36175F48DF00264055 /* ButtonSet.png */,
+				CBD1DD37175F48DF00264055 /* ButtonSetClip.png */,
+				CBD1DD38175F48DF00264055 /* pollisticslogo.png */,
+				CBD1DD39175F48DF00264055 /* pollisticslogoHeader.png */,
+				CBD1DD34175F45DD00264055 /* grey-button.png */,
+				CBD1DD2A175F446500264055 /* pollistics-ios_icon_114.png */,
+				CBD1DD2B175F446500264055 /* pollistics-ios_icon_57.png */,
 				BF217501175D52C1000061A9 /* greenbutton.png */,
 				BF3B597117304B0700A29F65 /* green-rectangle-blank-button-hiCropped.png */,
 				BF3B596F1730416C00A29F65 /* pollisticslogoHeader.png */,
@@ -274,13 +283,16 @@
 				BF3B59701730416C00A29F65 /* pollisticslogoHeader.png in Resources */,
 				BF3B597217304B0700A29F65 /* green-rectangle-blank-button-hiCropped.png in Resources */,
 				BF217502175D52C1000061A9 /* greenbutton.png in Resources */,
-				BF217504175D5FF5000061A9 /* bluebutton.png in Resources */,
-				BF4BE27C175D64BB00EA0547 /* BlueButtonAi.png in Resources */,
-				BF4BE27E175D6F5600EA0547 /* SelectedButtonAi.png in Resources */,
 				BF77B358175D75350025F29D /* pollisticsIcon114.png in Resources */,
 				BF77B35A175D75390025F29D /* pollisticsIcon57.png in Resources */,
-				BF77B35C175D7C470025F29D /* pollisticslogo.png in Resources */,
-				BF769DF4175E980E005A9236 /* Polistics_Logo_6-3-13-1280x480.png in Resources */,
+				CBD1DD2C175F446500264055 /* pollistics-ios_icon_114.png in Resources */,
+				CBD1DD2D175F446500264055 /* pollistics-ios_icon_57.png in Resources */,
+				CBD1DD35175F45DD00264055 /* grey-button.png in Resources */,
+				CBD1DD3A175F48DF00264055 /* ButtonSet.png in Resources */,
+				CBD1DD3B175F48DF00264055 /* ButtonSetClip.png in Resources */,
+				CBD1DD3C175F48DF00264055 /* pollisticslogo.png in Resources */,
+				CBD1DD3D175F48DF00264055 /* pollisticslogoHeader.png in Resources */,
+				CBD1DD3F175F4AFE00264055 /* Polistics-Logo-gradient.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
